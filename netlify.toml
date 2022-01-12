@@ -1,0 +1,9 @@
+[build]
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[[redirects]]
+  from = "/"
+  to = "/reverse-proxy-basepath"
