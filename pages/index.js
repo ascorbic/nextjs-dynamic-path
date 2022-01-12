@@ -30,7 +30,7 @@ export default function Home({ paths }) {
               <Link href={`/dynamic/${path}`}>
                 <h2 style={{ cursor: 'pointer' }}>Dynamic Path Page &rarr;</h2>
               </Link>
-              <p>This one isn't really working 😓</p>
+              <p>This one is not really working 😓</p>
             </div>
           ))}
         </div>
